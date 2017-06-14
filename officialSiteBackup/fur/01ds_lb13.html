@@ -1,0 +1,405 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>SCAN ASIA</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<LINK href="/images/css.css" type=text/css rel=stylesheet>
+
+<SCRIPT src="/images/ilank_flash.js" type=text/javascript></SCRIPT>
+<script language="JavaScript">
+<!--
+function jumpage(selObj,restore){
+    eval("location='"+selObj.options[selObj.selectedIndex].value+"'");
+    if (restore) selObj.selectedIndex=0;}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<script language="JavaScript">
+////////////////////鼠标移上去图片淡入淡出的效果//////////////////////////////////////
+nereidFadeObjects = new Object();
+nereidFadeTimers = new Object();
+
+function nereidFade(object, destOp, rate, delta){
+if (!document.all)
+return
+    if (object != "[object]"){  
+        setTimeout("nereidFade("+object+","+destOp+","+rate+","+delta+")",0);
+        return;
+    }
+        
+    clearTimeout(nereidFadeTimers[object.sourceIndex]);
+    
+    diff = destOp-object.filters.alpha.opacity;
+    direction = 1;
+    if (object.filters.alpha.opacity > destOp){
+        direction = -1;
+    }
+    delta=Math.min(direction*diff,delta);
+    object.filters.alpha.opacity+=direction*delta;
+
+    if (object.filters.alpha.opacity != destOp){
+        nereidFadeObjects[object.sourceIndex]=object;
+        nereidFadeTimers[object.sourceIndex]=setTimeout("nereidFade(nereidFadeObjects["+object.sourceIndex+"],"+destOp+","+rate+","+delta+")",rate);
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////////
+
+</script>
+<script language="javascript">
+<!-- 
+//图片按比例显示程序
+var flag=false; 
+function DrawImage(ImgD,Width,Height){ 
+var image=new Image(); 
+image.src=ImgD.src; 
+if(image.width>0 && image.height>0){ 
+flag=true; 
+if(image.width/image.height>= Width/Height){ 
+if(image.width>Width){ 
+ImgD.width=Width; 
+ImgD.height=(image.height*Width)/image.width; 
+}else{ 
+ImgD.width=image.width; 
+ImgD.height=image.height; 
+} 
+} 
+else{ 
+if(image.height>Height){ 
+ImgD.height=Height; 
+ImgD.width=(image.width*Height)/image.height; 
+}else{ 
+ImgD.width=image.width; 
+ImgD.height=image.height; 
+} 
+} 
+} 
+} 
+//--> 
+</script>
+<META content="MSHTML 6.00.6000.21015" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=main2 align="center">
+<DIV id=menu2 align="center"></DIV>
+<div class="menu" >   
+    <ul>   
+        <li><a href="/fur/01ds.htm">Drawer Slide   
+            <!--[if IE 7]><!--></a><!--<![endif]-->   
+            <!--[if lte IE 6]><table><tr><td><![endif]-->   
+            <ul>   
+                <li><a title="Self Closing Drawer Slides" href="/fur/01ds_lb01.html">Self Closing Drawer Slides</a></li>   
+                <li><a title="Non-self Closing Drawer Slides" href="/fur/01ds_lb02.html">Non-self Closing Drawer Slides</a></li>   
+                <li><a title="Clamp On Drawer Slides" href="/fur/01ds_lb03.html">Clamp On Drawer Slides</a></li>   
+                <li><a title="Metal Box Drawer Slides" href="/fur/01ds_lb04.html">Metal Box Drawer Slides</a></li>   
+                <li><a title="17mm Mini Ball Bearing Slides" href="/fur/01ds_lb05.html">17mm Mini Ball Bearing Slides</a></li>   
+                <li><a title="27mm Keyboard Ball Bearing Slides" href="/fur/01ds_lb06.html">27mm Keyboard Ball Bearing Slides</a></li>   
+                <li><a title="35mm Ball Bearing Slides" href="/fur/01ds_lb07.html">35mm Ball Bearing Slides</a></li>   
+                <li><a title="45 mm Ball Bearing Slide" href="/fur/01ds_lb08.html">45 mm Ball Bearing Slide</a></li> 
+				<li><a title="Soft Closing Double Wall Metal Slides" href="/fur/01ds_lb09.html">Soft Closing Double Wall Metal Slides</a></li>    
+				<li><a title="Undermount Slides" href="/fur/01ds_lb10.html">Undermount Slides</a></li>
+                <li><a title="Heavy Duty Ball Bearing Slides" href="/fur/01ds_lb12.html">Heavy Duty Ball Bearing Slides</a></li>
+                      <li><a title="Swivel Plate" href="/fur/01ds_lb13.html">Swivel Plate</a></li>
+                <li><a title="Others" href="/fur/01ds_lb11.html">Others</a></li>        
+            </ul>   
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->   
+        </li>   
+        <li><a href="/fur/02ch.htm">Concealed Hinge    
+            <!--[if IE 7]><!--></a><!--<![endif]-->   
+            <!--[if lte IE 6]><table><tr><td><![endif]-->   
+            <ul>   
+                <li><a title="Mini Concealed Hinge" href="/fur/02ch_lb01.html">Mini Concealed Hinge</a></li>   
+                <li><a title="One Way Concealed Hinge" href="/fur/02ch_lb02.html">One Way Concealed Hinge</a></li>
+				<li><a title="Two Way Concealed Hinge" href="/fur/02ch_lb03.html">Two Way Concealed Hinge</a></li>
+				<li><a title="Clip On Concealed Hinge" href="/fur/02ch_lb04.html">Clip On Concealed Hinge</a></li>
+				<li><a title="Hydraulic Concealed Hinge" href="/fur/02ch_lb05.html">Hydraulic Concealed Hinge</a></li>
+                <li><a title="Invisible Concealed Hinge" href="/fur/02ch_lb07.html">Invisible Concealed Hinge</a></li>
+                <li><a title="Self Closing Hinge" href="/fur/02ch_lb08.html">Self Closing Hinge</a></li>
+				<li><a title="Others" href="/fur/02ch_lb06.html">Others</a></li>
+				
+            </ul>   
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->   
+        </li>  
+        <li><a href="/fur/06co.htm">Fitting  
+            <!--[if IE 7]><!--></a><!--<![endif]-->   
+            <!--[if lte IE 6]><table><tr><td><![endif]-->   
+            <ul>   
+                <li><a title="Tube & Tube Support" href="/fur/06co_lb01.html">Tube & Tube Support</a></li>   
+                <li><a title="Glides" href="/fur/06co_lb02.html">Glides</a></li> 
+				<li><a title="Connector Fitting" href="/fur/06co_lb03.html">Connector Fitting</a></li>	
+                <li><a title="Glass Fitting" href="/fur/06co_lb05.html">Glass Fitting</a></li>
+                <li><a title="Magnetic Catches & Catches" href="/fur/06co_lb06.html">Magnetic Catches & Catches</a></li> 	
+                <li><a title="Shelf Support" href="/fur/06co_lb07.html">Shelf Support</a></li>
+                <li><a title="Bed Fitting & Bracket" href="/fur/06co_lb08.html">Bed Fitting & Bracket</a></li>    
+				<li><a title="Shelf Bracket" href="/fur/06co_lb09.html">Shelf Bracket</a></li>  
+                <li><a title="Others" href="/fur/06co_lb10.html">Others</a></li>  
+            </ul>   
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->   
+        </li>   
+        
+        <li><a href="/fur/05dl.htm">Drawer Lock & Key Blank</a></li>   
+        <li><a href="/fur/08fd.htm">Flap Door Fittings</a></li> 
+        <li><a href="/fur/09sd.htm">Sliding Door Fitting</a></li> 
+         <li><a href="/fur/07eb.htm">Edge Banding & Fast Cap</a></li>        
+          <li><a href="/fur/10ca.htm">Caster</a></li>   
+        <li><a href="/fur/11ws.htm">Wardrobe Series</a></li>   
+ <li><a href="/fur/03ml.htm">Leg</a>
+			<ul>
+		<li><a title="Zamac" href="/fur/03ml_lb01.html">Zamac</a></li>
+		<li><a title="Iron" href="/fur/03ml_lb02.html">Iron</a></li>
+		<li><a title="Aluminium" href="/fur/03ml_lb03.html">Aluminium</a></li>
+		<li><a title="Stainless Steel" href="/fur/03ml_lb04.html">Stainless Steel</a></li>
+        <li><a title="Table Leg" href="/fur/03ml_lb06.html">Table Leg</a></li>
+		<li><a title="Others" href="/fur/03ml_lb05.html">Others</a></li>
+		</ul>
+		</li>   
+         
+        <li><a href="/fur/04ha.htm">Handle   
+            <!--[if IE 7]><!--></a><!--<![endif]-->   
+            <!--[if lte IE 6]><table><tr><td><![endif]-->   
+            <ul>   
+                <li><a title="Zamac" href="/fur/04ha_lb01.html">Zamac</a></li>   
+                <li><a title="Aluminium" href="/fur/04ha_lb02.html">Aluminium</a></li>
+				<li><a title="Iron" href="/fur/04ha_lb03.html">Iron</a></li> 
+				<li><a title="Stainless Steel" href="/fur/04ha_lb04.html">Stainless Steel</a></li> 
+				<li><a title="Wood" href="/fur/04ha_lb05.html">Wood</a></li> 
+				<li><a title="Ceramic" href="/fur/04ha_lb06.html">Ceramic</a></li> 
+				<li><a title="Plastic" href="/fur/04ha_lb07.html">Plastic</a></li> 
+                <li><a title="Plastic" href="/fur/04ha_lb08.html">Solid Brass</a></li> 
+                <li><a title="Plastic" href="/fur/04ha_lb09.html">Others</a></li> 
+				 
+            </ul>   
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->   
+        </li>   
+         <li><a href="/fur/12ot.htm">Others</a></li> 
+    </ul>   
+</div> 
+<DIV align="center" >
+<DIV align="center"	>
+ <table width="980"  border="0" cellspacing="0" cellpadding="0"  background="/images/11.png" height="520">
+ 
+  <tr>
+    <td align="center"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td ><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <!--DWLayoutTable-->
+                 
+                    
+                    <tr>   <td  width="250" align="left" valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" height="520">
+  <tr>
+    <td width="8" bgcolor="#d97305" height="54"></td>
+    <td align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left"><span class="nt">DRAWER</span> <span class="ntt">SLIDE</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="a">&nbsp;</td>
+    <td align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left"  onMouseMove="show(a)" onMouseOut="noshow(a)"><a href="01ds_lb01.html">Self Closing Drawer Slides</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="b">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(b)" onMouseOut="noshow(b)"><a href="01ds_lb02.html">Non-self Closing Drawer Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  
+  <tr>
+    <td height="30" bgcolor="#949494" id="c">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" onMouseMove="show(c)" onMouseOut="noshow(c)"><a href="01ds_lb03.html">Clamp On Drawer Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="d">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(d)" onMouseOut="noshow(d)"><a href="01ds_lb04.html">Metal Box Drawer Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="e">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(e)" onMouseOut="noshow(e)"><a href="01ds_lb05.html">17mm Mini Ball Bearing Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="f">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(f)" onMouseOut="noshow(f)"><a href="01ds_lb06.html">27mm Keyboard Ball Bearing Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="g">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(g)" onMouseOut="noshow(g)"><a href="01ds_lb07.html">35mm Ball Bearing Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="h">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(h)" onMouseOut="noshow(h)"><a href="01ds_lb08.html">45 mm ball bearing slide</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="i">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(i)" onMouseOut="noshow(i)"><a href="01ds_lb09.html">Soft Closing Double Wall Metal Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30"  bgcolor="#949494" id="j">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(j)" onMouseOut="noshow(j)"><a href="01ds_lb10.html">Undermount Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+          <tr>
+    <td  height="30" bgcolor="#949494" id="l">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(l)" onMouseOut="noshow(l)"><a href="01ds_lb12.html">Heavy Duty Ball Bearing Slides</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+   <tr>
+    <td  height="30"bgcolor="#d97305"  id="m">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" ><a href="01ds_lb13.html"><strong>Swivel Plate
+</strong></a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td  height="30" bgcolor="#949494" id="k">&nbsp;</td>
+    <td align="center" valign="middle">
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" onMouseMove="show(k)" onMouseOut="noshow(k)"><a href="01ds_lb11.html">Others</a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <script>
+var ya=document.getElementById('a').bgColor;	
+var yb=document.getElementById('b').bgColor;
+var yc=document.getElementById('c').bgColor;
+var yd=document.getElementById('d').bgColor;
+var ye=document.getElementById('e').bgColor;
+var yf=document.getElementById('f').bgColor;
+var yg=document.getElementById('g').bgColor;
+var yh=document.getElementById('h').bgColor;
+var yi=document.getElementById('i').bgColor;
+var yj=document.getElementById('j').bgColor;
+var yk=document.getElementById('k').bgColor;
+var yl=document.getElementById('l').bgColor; 
+var yl=document.getElementById('m').bgColor; 
+function show(a,b,c,d,e,f,g,h,i,j,k){
+a.bgColor="#d97305";
+b.bgColor="#d97305";
+c.bgColor="#d97305";
+d.bgColor="#d97305";
+e.bgColor="#d97305";
+f.bgColor="#d97305";
+g.bgColor="#d97305";
+h.bgColor="#d97305";
+i.bgColor="#d97305";
+j.bgColor="#d97305";
+k.bgColor="#d97305";
+l.bgColor="#d97305";
+m.bgColor="#d97305";
+}	
+function noshow(a,b,c,d,e,f,g,h,i,j,k){
+a.bgColor='#949494';
+c.bgColor='#949494';
+b.bgColor='#949494';
+d.bgColor='#949494';
+e.bgColor='#949494';
+f.bgColor='#949494';
+g.bgColor='#949494';
+h.bgColor='#949494';
+i.bgColor='#949494';
+j.bgColor='#949494';
+k.bgColor='#949494';
+l.bgColor='#949494';
+m.bgColor='#949494';}
+
+ 
+</script>
+  <Tr>
+  <td  bgcolor="#949494" height="140"></td><td></td>
+  </Tr>
+</table>
+
+					</td>
+                      <td valign="top" height="520"><table width="100%" border="0" cellpadding="0" cellspacing="10" bordercolor="ffffff" height="520">
+                          
+                          <tr bgcolor="#FFFFFF"> 
+						
+                            <td width="100%"  valign="top"><IFRAME border=0 align=center src="01ds_lb13_1.html" frameBorder=0 width=699 scrolling=no height=500 allowtransparency="true" >
+        浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。</IFRAME></td>
+                          </tr>
+                          
+                        </table></td>
+                    </tr>
+                  </table></td>
+      </tr>
+    </table></td>
+  </tr>
+ 
+</table>
+
+</DIV>
+</DIV>
+
+</DIV><DIV id=footer><SPAN class=f1>Copyright @Scan Asia Corporation. 2013. All Rights Reserved </SPAN> 
+</DIV></BODY></HTML><SCRIPT type=text/javascript>
+var objFlash = new ilankFlash("/menu/FURNITURE FITTING.swf","","960","157","9","","false","high");
+objFlash.addParam("wmode","transparent");
+objFlash.write("menu2");
+</SCRIPT>
+ 

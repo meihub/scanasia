@@ -1,0 +1,48 @@
+#lbOverlay {
+	Z-INDEX: 9998; LEFT: 0px; WIDTH: 100%; CURSOR: pointer; POSITION: absolute; BACKGROUND-COLOR: #000
+}
+#lbCenter {
+	Z-INDEX: 9999; LEFT: 50%; OVERFLOW: hidden; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+#lbBottomContainer {
+	Z-INDEX: 9999; LEFT: 50%; OVERFLOW: hidden; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+.lbLoading {
+	BACKGROUND: url(../images/ld.gif) #fff no-repeat center 50%
+}
+#lbImage {
+	BORDER-RIGHT: #fff 10px solid; BORDER-TOP: #fff 10px solid; LEFT: 0px; BORDER-LEFT: #fff 10px solid; BORDER-BOTTOM: #fff 10px solid; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px
+}
+#lbPrevLink {
+	DISPLAY: block; WIDTH: 50%; POSITION: absolute; TOP: 0px; outline: none
+}
+#lbNextLink {
+	DISPLAY: block; WIDTH: 50%; POSITION: absolute; TOP: 0px; outline: none
+}
+#lbPrevLink {
+	LEFT: 0px
+}
+#lbPrevLink:hover {
+	BACKGROUND: url(../images/prevlabel.gif) no-repeat 0% 15%
+}
+#lbNextLink {
+	right: 0px
+}
+#lbNextLink:hover {
+	BACKGROUND: url(../images/nextlabel.gif) no-repeat 100% 15%
+}
+#lbBottom {
+	BORDER-RIGHT: #fff 10px solid; BORDER-TOP: #fff 10px; FONT-SIZE: 10px; BORDER-LEFT: #fff 10px solid; COLOR: #666; LINE-HEIGHT: 1.4em; BORDER-BOTTOM: #fff 10px solid; FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+#lbCloseLink {
+	DISPLAY: block; BACKGROUND: url(../images/close.png) no-repeat center 50%; FLOAT: right; MARGIN: 5px 0px; WIDTH: 66px; HEIGHT: 22px
+}
+#lbCaption {
+	MARGIN-RIGHT: 71px
+}
+#lbNumber {
+	MARGIN-RIGHT: 71px
+}
+#lbCaption {
+	FONT-WEIGHT: bold
+}

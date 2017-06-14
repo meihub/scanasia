@@ -1,0 +1,33 @@
+
+#content {
+	FLOAT: left; WIDTH: 700px; POSITION: relative; 
+}
+
+#content_scroll {
+	left:0px;  FLOAT: left; OVERFLOW: hidden; WIDTH: 700px; POSITION: absolute; TOP: 0px; HEIGHT:520px;  
+}
+
+#media_content {
+	POSITION: absolute; TOP: 10px
+}
+
+
+#content_scroller {
+	LEFT: 44px; FLOAT: left; WIDTH: 700px; POSITION: absolute; TOP: 167px; HEIGHT: 2500px; 
+}
+
+#scrollArea {
+	BACKGROUND: url(back_scroll.png) no-repeat center top; LEFT: 689px; WIDTH: 18px; POSITION: absolute; TOP: 40px; HEIGHT: 500px;
+}
+
+#scroller {
+	BACKGROUND-IMAGE: url(scroller.png); MARGIN-LEFT: 0px; CURSOR: pointer; POSITION: relative; HEIGHT: 31px;
+}
+
+.ie6 #scroller {
+	BACKGROUND-IMAGE: url(../img/scroller.gif)
+}
+.error {
+	DISPLAY: block
+	
+}

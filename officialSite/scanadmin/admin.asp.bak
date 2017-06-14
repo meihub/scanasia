@@ -1,0 +1,92 @@
+<!--#include file="conn.asp"-->
+<%if session("admin")="" then
+response.Redirect "login.asp"
+end if
+%>
+<html>
+<head>
+<title>SCAN ASIA綴怢奪燴炵苀</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+.style2 {color: #CCCCCC}
+-->
+</style>
+</head>
+<body>
+<table width="91%" border="0" align="center" cellpadding="1" cellspacing="1">
+  <tr> 
+    <td height="20"> 
+      <div align="center"><font color="#000000">SCAN ASIA綴怢奪燴</font></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="100" valign="top"><br>
+      <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td>
+            <div align="center"><font color="#FF0000">辣茩奪燴埜勤掛綴怢炵苀輛俴紱釬ㄐㄐ<br>
+            </font></div>
+          </td>
+        </tr>
+      </table>
+      <table width="90%"  border="0" cellspacing="0" cellpadding="0"  align="center">
+        <tr>
+          <td><p><strong>炵苀紱釬硌鰍ㄩ</strong><br>
+              <span class="style2">掛炵苀峈SCAN ASIA v1.0ㄛ翋猁蚕芞?桯尨炵苀ㄛ陓洘楷票炵苀眕摯奪燴埜炵苀郪傖ㄛ
+			砆錶?狟ㄩ</span><br>
+            <span class="go-wenbenkuang"><strong>+ SCAN ASIA's莉?奪燴ㄩ</strong></span><br>
+森戲醴峈SCAN ASIA腔莉?桯尨炵苀ㄛ翋猁衄眕狟?跺湮戲醴ㄩ<br>
+<span class="go-wenbenkuang">- 砐醴奪燴/氝樓</span><br>
+森戲醴峈<span class="style1">莉?腔濬梗氝樓ㄛ忑珂氝樓俇湮濬梗ㄛ?綴婓勤袧剒猁腔湮濬綴醱氝樓眈茼腔苤濬梗<br>
+</span><span class="go-wenbenkuang">- 莉?氝樓</span><br>
+森戲醴莉?芞?奻換ㄛ奻換奀?<span class="style1">勤茼芞?湮苤睿蛁砩恁寁疑湮苤濬梗</span><br>
+              <span class="go-wenbenkuang">- 莉?奪燴</span><br>
+  森戲醴峈勤眒冪奻換腔莉?芞?輛俴奪燴ㄛ翋猁衄党蜊﹜刉壺脹髡夔<br>
+  </p>
+            <p><span class="go-wenbenkuang"><strong>+ 陔恓鼠豢奪燴</strong></span><br>
+  森戲醴峈陔恓鼠豢腔楷票﹜党蜊睿刉壺<br>
+  <span class="go-wenbenkuang">- 陔恓奪燴</span><br>
+  森戲醴峈勤眒冪楷票腔陔恓輛俴党蜊﹜刉壺脹髡夔奪燴<br>
+  <span class="go-wenbenkuang">- 陔恓楷票</span><br>
+  森戲醴峈陔恓腔楷票﹝</p>
+            <p><span class="go-wenbenkuang"><strong>+ 奪燴埜扢离</strong></span><br>
+  森戲醴憩岆勤綴怢奪燴埜梛瘍躇鎢腔党蜊</p>
+<p><span class="go-wenbenkuang"><strong>+炵苀奪燴</strong></span><br>
+  蛁种森棒腎翻</p></td>
+        </tr>
+      </table>      <br>
+      <table border="0" align="center" cellpadding="0" cellspacing="0" width="95%">
+        <tr> 
+          <td>            <div align="center"><br>
+              </div>
+          </td>
+        </tr>
+        <%								
+function liuyan()
+dim tmprs
+last_logintime
+tmprs=conn.execute("Select Count(guest_id) from guest Where datediff(n,now,guest_time) > 0 and datediff(n,guest_time,last_logintime) > 0")
+liuyan=tmprs(0)
+set tmprs=nothing
+if isnull(liuyan) then liuyan=0
+end function
+%>
+        <tr> 
+          <td> 
+            <div align="center">  
+              <p>奻棒腎翻奀潔ㄩ<%=session("last_logintime")%></p>
+              <p>&nbsp;</p>
+              <p><br>
+              </p>
+            </div>
+          </td>
+        </tr>
+    </table>    </td>
+  </tr><A NAME="StranLink"></A>
+</table><SCRIPT LANGUAGE=Javascript SRC="../images/big5style.js"></SCRIPT>
+<br>
+</body>
+</html>

@@ -1,0 +1,183 @@
+/* CSS Document */
+
+
+td{ font-size:12px; color:#666666
+}
+.title{ font-size:20px; color:#FF9600 
+}
+#menu_x A:link {
+	font-size:12px; color:#333333
+}
+#menu_x A:visited {
+	font-size:12px; color:#666666
+}
+#menu_x A:hover {
+	font-size:12px; color:#FF9600
+}
+
+#main {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(bg.gif) no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 1003px; PADDING-TOP: 0px; HEIGHT: 768px
+}
+#main2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(bg.gif) no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 1003px; PADDING-TOP: 0px; HEIGHT: 768px
+}
+#logo {
+	BACKGROUND: url(logo.png) no-repeat; MARGIN: 10px 0px 0px 363px; WIDTH: 292px; HEIGHT: 84px;
+	_background:none;/*IE6*/
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="logo.png");/*IE6*/
+}
+#menu {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 1003px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#menu LI {
+	DISPLAY: block; Z-INDEX: 100; FLOAT: left; POSITION: relative
+}
+#menu LI SPAN {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; FONT-SIZE: 11px; Z-INDEX: 100; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif
+}
+#menu LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap; TEXT-DECORATION: underline
+}
+#menu LI A:visited {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap; TEXT-DECORATION: underline
+}
+#menu DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(opaque1.png); LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px
+}
+* HTML #menu DL {
+	BACKGROUND: url(opaque.gif)
+}
+#menu DT {
+	FONT-SIZE: 11px; BACKGROUND: url(disc.gif) no-repeat left center; FLOAT: left; MARGIN: 0px; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif
+}
+#menu DD {
+	CLEAR: left; PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; FONT-SIZE: 11px; BACKGROUND: url(opaque.png); PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 0px; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+#menu DT A {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 5px; COLOR: #656565; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#menu DT A:visited {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 5px; COLOR: #656565; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#menu DD A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; COLOR: #ff9600; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#menu DD A:visited {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; COLOR: #ff9600; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#menu LI A:hover {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+#menu LI:hover DD {
+	DISPLAY: block; TEXT-DECORATION: none
+}
+#menu LI A:hover DD {
+	DISPLAY: block; TEXT-DECORATION: none
+}
+#menu LI:hover DL {
+	PADDING-BOTTOM: 15px; TEXT-DECORATION: none
+}
+#menu LI A:hover DL {
+	PADDING-BOTTOM: 15px; TEXT-DECORATION: none
+}
+#menu LI:hover DT A {
+	TEXT-DECORATION: none
+}
+#menu LI A:hover DT A {
+	TEXT-DECORATION: none
+}
+#menu DD A:hover {
+	BACKGROUND: #feefe6; COLOR: #ff9600;  TEXT-DECORATION: none
+}
+.menu_deputy {
+	BACKGROUND: url(h_line.gif) no-repeat center bottom; MARGIN: 0px 0px 10px 0px; WIDTH: 1003px; HEIGHT: 30px; TEXT-ALIGN: center
+}
+.menu_deputy UL {
+	MARGIN: 5px 0px 0px; LIST-STYLE-TYPE: none
+}
+.menu_deputy LI {
+	DISPLAY: inline; MARGIN: 10px 15px; 
+}
+.menu_deputy LI A{
+	  FONT: 11px/15pt Arial, Helvetica, sans-serif
+}
+.menu_deputy LI A:link {
+	FONT: 11px/15pt Arial, Helvetica, sans-serif;  color:#333333; TEXT-DECORATION: none;
+}
+.menu_deputy LI A:visited {
+	FONT: 11px/15pt Arial, Helvetica, sans-serif; color:#000000 ;TEXT-DECORATION: none;
+}
+.menu_deputy LI A:hover {
+	FONT: 11px/15pt Arial, Helvetica, sans-serif; color:#FF9600;TEXT-DECORATION: none;
+}
+.menu_deputy LI SPAN A{
+	COLOR: #feac37 
+}
+.menu_deputy LI SPAN A:link {
+	FONT: 11px/15pt Arial, Helvetica, sans-serif;  color:#FF9600; TEXT-DECORATION: none;
+}
+.menu_deputy LI SPAN A:visited {
+	FONT: 11px/15pt Arial, Helvetica, sans-serif; color:#feac37 ;TEXT-DECORATION: none;
+}
+.menu_deputy LI SPAN A:hover {
+	FONT: 11px/15pt Arial, Helvetica, sans-serif; color:#333333;TEXT-DECORATION: none;
+}
+.x_b{ no-repeat center ;WIDTH: 1003px; HEIGHT: 275px; 
+background-image:url(x_b.png);/*IE7,FF*/
+_background:none;/*IE6*/
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="images/x_b.png");/*IE6*/
+
+}
+.news{
+ PADDING-top: 15px; 
+}
+#news {FONT: 14px Arial, Verdana, Geneva, sans-serif; font-weight:bold;color:#444444}
+#nt {FONT: 10px Arial, Verdana, Geneva, sans-serif; font-weight:bold;color:#666666; }
+#news A:link {
+	font-size:14px; color:#555555 ; TEXT-DECORATION: none; font-weight:bold
+}
+#news A:visited {
+	font-size:14px; color:#666666;TEXT-DECORATION: none; font-weight:bold
+}
+#news A:hover {
+	font-size:14px; color:#FF9600;TEXT-DECORATION: none; font-weight:bold
+}
+.cp_x{BACKGROUND: url(cp_x.png) no-repeat center ;WIDTH: 926px; HEIGHT: 410px; 
+}
+.cp_x_l{PADDING: 25px; 
+}
+#nt2 {FONT: 10px Arial, Verdana, Geneva, sans-serif; font-weight:bold;color:#999999; }
+#nt2 A:link {
+	font-size:10px; color:#666666 ; TEXT-DECORATION: none; font-weight:bold
+}
+#nt2 A:visited {
+	font-size:10px; color:#999999;TEXT-DECORATION: none; font-weight:bold
+}
+#nt2 A:hover {
+	font-size:10px; color:#FF9600;TEXT-DECORATION: none; font-weight:bold
+}
+.inq{
+ PADDING-top: 15px;
+}
+.fy A{ 
+BACKGROUND: #FF9600; COLOR: #ffffff; font-size:11px;
+}
+.fy A:link {
+	font-size:11px; color:#ffffff
+}
+.box {
+	BORDER-RIGHT: #cecdcd 1px solid; BORDER-TOP: #cecdcd 1px solid; BORDER-LEFT: #cecdcd 1px solid; BORDER-BOTTOM: #cecdcd 1px solid; BACKGROUND-COLOR: #f4f4f4
+}
+
+#footer {
+	BACKGROUND: url(foot-line.gif) no-repeat center top; MARGIN: 0px auto; MARGIN-top: 230px ;WIDTH: 1003px;  HEIGHT: 20px; TEXT-ALIGN: center 
+}
+#footer SPAN {
+	TEXT-ALIGN: center
+}
+#footer .f1 {
+	DISPLAY: block; FONT: 10px/20px Verdana, Geneva, sans-serif; COLOR: #868585
+}
+#footer .f2 {
+	DISPLAY: block; FONT: 11px/20px Verdana, Geneva, sans-serif; COLOR: #868585
+}

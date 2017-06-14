@@ -1,0 +1,50 @@
+
+
+#thumbs {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+#thumbs .thumb_row {
+	PADDING-RIGHT: 2px; DISPLAY: block; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 640px; PADDING-TOP: 2px
+}
+#thumbs .thumb {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 9px; FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 120px; LINE-HEIGHT: 130%; PADDING-TOP: 0px; FONT-FAMILY: verdana,arial, hevetica, sans-serif
+}
+#thumbs .thumb_img {
+	BACKGROUND: url(loading.gif)); PADDING-BOTTOM: 3px; WIDTH: 120px; HEIGHT: 120px; TEXT-ALIGN: center
+}
+#unitip {
+	DISPLAY: none; Z-INDEX: 999; FONT: 14px/120% Arial, Helvetica, sans-serif; COLOR: #fff; POSITION: absolute; TOP: -1000px; TEXT-DECORATION: none
+}
+#unitippoint {
+	DISPLAY: block; LEFT: 0px; WIDTH: 145px; POSITION: relative; TOP: 0px
+}
+#unitipmid {
+	DISPLAY: block; LEFT: 0px; WIDTH: 145px; POSITION: relative; TOP: 0px
+}
+#unitipcap {
+	DISPLAY: block; LEFT: 0px; WIDTH: 145px; POSITION: relative; TOP: 0px
+}
+#unitippoint {
+	BACKGROUND: url(TipPoint.png) no-repeat; OVERFLOW: hidden; WIDTH: 145px; HEIGHT: 19px;
+}
+#unitipmid {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px;  PADDING-BOTTOM: 5px; WIDTH: 115px; PADDING-TOP: 5px; HEIGHT: auto;
+	background-image:url(TipMid.png);/*IE7,FF*/
+_background:none;/*IE6*/
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="images/TipMid.png");/*IE6*/
+	
+}
+#unitip P {
+	FONT-SIZE: 1.1em; COLOR: #fff
+}
+#unitip UL {
+	MARGIN-LEFT: 10px
+}
+#unitip LI {
+	FONT-SIZE: 1.1em; COLOR: #fff
+}
+#unitipcap {
+	BACKGROUND: url(TipCap.png) no-repeat; OVERFLOW: hidden; WIDTH: 145px; HEIGHT: 7px;
+	
+	
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<webnav numMC="5" numBtt="5" slideSpeed="5">
+
+<button>
+<txt>HOME</txt>
+<image>pic/image2.jpg</image>
+<urlLink>our_work.html</urlLink>
+<imageLink>our_work.html</imageLink>
+<duration>5</duration>
+</button>
+
+<button>
+<txt>DEMO REEL</txt>
+<image>pic/image3.jpg</image>
+<urlLink>showVideo</urlLink>
+<imageLink>showVideo</imageLink>
+<duration>5</duration>
+</button>
+
+<button>
+<txt>WHAT WE DO</txt>
+<image>pic/image0.jpg</image>
+<urlLink>what-we-do.html</urlLink>
+<imageLink>what-we-do.html</imageLink>
+<duration>5</duration>
+</button>
+
+<button>
+<txt>CLIENTS</txt>
+<image>pic/image1.jpg</image>
+<urlLink>our_work.html</urlLink>
+<imageLink>our_work.html</imageLink>
+<duration>5</duration>
+</button>
+
+<button>
+<txt>PORTFOLIO</txt>
+<image>pic/image2.jpg</image>
+<urlLink>our_work.html</urlLink>
+<imageLink>our_work.html</imageLink>
+<duration>5</duration>
+</button>
+
+
+
+
+</webnav>
